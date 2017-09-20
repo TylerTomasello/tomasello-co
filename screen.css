@@ -1,4 +1,4 @@
-img{
+img, video, audio{
   display: block;
   max-width: 100%;
 }
