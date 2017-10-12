@@ -44,6 +44,10 @@ ol {
   list-style-type: decimal;
 }
 
+ul {
+  list-style-type: square;
+}
+
 img, video, a {
   display: block;
   max-width: 100%;
