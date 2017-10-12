@@ -55,6 +55,10 @@ li ul {
   padding-bottom: 0;
 }
 
+li {
+  padding-bottom: 0.611em; /* 11 / 18 = 0.6111111 */
+}
+
 img, video, a {
   display: block;
   max-width: 100%;
