@@ -30,6 +30,12 @@ h1 {
   padding-bottom: 0.516em; /* 22 / 42.635 = 0.516 */
 }
 
+h2 {
+  font-size: 1.777em; /* 31.984 / 18 = 1.777 */
+  line-height: 1.032em; /* 33 / 31.984 = 1.032 */
+  padding-bottom: 0.688em; /* 22 / 31.984 = 0.688 */
+}
+
 img, video, a {
   display: block;
   max-width: 100%;
