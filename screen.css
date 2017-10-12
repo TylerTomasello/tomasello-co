@@ -106,6 +106,9 @@ img, video, a {
   color: black;
 }
 
+#supporting a {
+  text-decoration: none;
+}
 
 @media screen and (min-width: 375px) {
   body {
