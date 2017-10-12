@@ -92,8 +92,7 @@ img, video, a {
   padding-bottom: 0.611em;
   text-align: center;
   text-decoration: none;
-  color: white;
-  background-color: red;
+  background-color: dodgerblue;
 }
 
 #navigation ul,
@@ -104,7 +103,9 @@ img, video, a {
 
 #header a {
   text-decoration: none;
+  color: black;
 }
+
 
 @media screen and (min-width: 375px) {
   body {
