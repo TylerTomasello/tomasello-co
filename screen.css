@@ -36,6 +36,10 @@ h2 {
   padding-bottom: 0.688em; /* 22 / 31.984 = 0.688 */
 }
 
+ol, ul {
+  padding-bottom: 0.611em; /* 11 / 18 = 0.6111111 */
+}
+
 img, video, a {
   display: block;
   max-width: 100%;
