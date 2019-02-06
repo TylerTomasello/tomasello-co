@@ -143,9 +143,9 @@ img, video, a {
   max-width: 100%;
 }
 
-footer {
-  
-}
+/* footer {
+  float: left;
+} */
 
 /* Layout styles */
 
@@ -249,10 +249,10 @@ footer {
     width: 64.28571428%; /*450 / 700 = 0.6428571429*/
     float: left;
   }
-  /*
+  
   #footer {
     width: 64.28571428%; /*450 / 700 = 0.6428571429
     float: right;
   }
-  */
+
 }
