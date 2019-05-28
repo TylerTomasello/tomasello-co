@@ -1,8 +1,3 @@
-/*function download(file)
-{
- window.location=file;
-}*/
-
 //Javascript for making the images a slideshow
 /*slideshow();
 function slideshow() {
