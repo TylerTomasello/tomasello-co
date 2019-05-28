@@ -14,3 +14,7 @@ function slideshow() {
   x[index-1].style.display = "block";
   setTimeout(slideshow, 5000);  //change every 5 seconds
 }
+
+$("#fileRequest").click(function() {
+    window.location = 'resume/Tyler_Tomasello_Resume.pdf';
+});
