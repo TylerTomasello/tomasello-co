@@ -1,5 +1,10 @@
+/*function download(file)
+{
+ window.location=file;
+}*/
+
 //Javascript for making the images a slideshow
-slideshow();
+/*slideshow();
 function slideshow() {
   var index = 0;
   var i = 0;
@@ -13,8 +18,12 @@ function slideshow() {
   }
   x[index-1].style.display = "block";
   setTimeout(slideshow, 5000);  //change every 5 seconds
-}
+}*/
 
-$("#fileRequest").click(function() {
-    window.location = 'resume/Tyler_Tomasello_Resume.pdf';
+$(document).ready(function(){
+  $("#fileRequest").click(function() {
+    ///window.location = 'Tyler_Tomasello_Resume.pdf';
+    window.download = 'Tyler_Tomasello_Resume.pdf';
+      //window.location = '/resume/Tyler_Tomasello_Resume.pdf';
+  });
 });
