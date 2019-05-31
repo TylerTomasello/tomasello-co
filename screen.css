@@ -12,9 +12,10 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
   http://www.modularscale.com/?18&px&1.333
 */
 html {
-  font-size: 1.125em; /* 18 / 16 = 1.125 */
-  line-height: 1.222em; /* 22 / 18 = 1.222 */
+  font-size: 1.125em;  /*18 / 16 = 1.125 */
+  line-height: 1.222em;  /*22 / 18 = 1.222 */
   background-color: aliceblue;
+  font-family: 'Catamaran', sans-serif;
 }
 
 /*
@@ -165,7 +166,8 @@ img, video, a {
 */
 #navigation li {
   float: left;
-  width: 33.3333333333%;
+  width: 25%;
+  /*width: 33.3333333333%;*/
 }
 
 /*
