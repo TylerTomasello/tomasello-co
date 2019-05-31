@@ -206,6 +206,10 @@ img, video, a {
   color: black;
 }
 
+#primary a {
+  text-decoration: none;
+}
+
 /*
   Set the supporing links text decoration
   to none.
