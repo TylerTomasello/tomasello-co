@@ -140,7 +140,6 @@ li li:last-child {
   width.
 */
 img, video, a {
-  display: block;
   max-width: 100%;
 }
 
@@ -217,8 +216,44 @@ img, video, a {
   to none.
 */
 #supporting a {
+  color: dodgerblue;
   text-decoration: none;
 }
+
+#supporting h2 a {
+  color: black;
+  text-decoration: none;
+}
+
+#supporting h2 a:hover{
+  color: dodgerblue;
+  text-decoration: none;
+}
+
+#footer {
+  position:inherit;
+  left: 0px;
+  bottom: 0px;
+  height: 30px;
+  width: 100%;
+  text-align:left;
+}
+
+.btn {
+  background-color:white;
+  border-radius: 8px;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  border: 2px solid black;
+}
+
+.btn:hover {
+  color: white;
+  background: black;
+}
+
 
 /* State Styles */
 
