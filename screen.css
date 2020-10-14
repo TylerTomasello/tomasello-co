@@ -15,6 +15,7 @@ html {
   font-size: 1.125em;  /*18 / 16 = 1.125 */
   line-height: 1.222em;  /*22 / 18 = 1.222 */
   background-color: aliceblue;
+  /*background-color: rgb(255, 255, 255);*/
   font-family: 'Catamaran', sans-serif;
 }
 
@@ -180,11 +181,13 @@ img, video, a {
   padding-bottom: 0.611em;
   text-align: center;
   text-decoration: none;
-  background-color: dodgerblue;
+  /*background-color: dodgerblue;*/
+  background-color: rgb(108, 153, 212);
 }
 
 #navigation a:hover {
-  background-color: #0000ff;
+  /*background-color: #0000ff;*/
+  background-color: rgb(0, 0, 0);
   color: white;
 }
 
